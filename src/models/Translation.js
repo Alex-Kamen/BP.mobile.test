@@ -16,7 +16,8 @@ export class Translation {
     }
 
     getLanguage() {
-        return new URLSearchParams(window.location.search).get('lang') || navigator.language.slice(0, 2);
+        const lang = new URLSearchParams(window.location.search).get('lang') || navigator.language;
+        return lang.slice(0, 2);
     }
 
     translate() {

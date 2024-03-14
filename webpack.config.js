@@ -17,7 +17,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.png$/,
+                test: /\.jpg$/,
                 type: 'asset/resource',
                 generator: {
                     filename: path.join('assets', '[name][ext]')

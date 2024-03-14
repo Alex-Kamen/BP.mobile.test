@@ -1,8 +1,8 @@
 import {Translation} from "./models/Translation";
 import './style.css';
-import './assets/avatars.png';
-import './assets/creation.png';
-import './assets/styles.png';
+import './assets/avatars.jpg';
+import './assets/creation.jpg';
+import './assets/styles.jpg';
 
 document.querySelectorAll('.price__item').forEach(priceItemNode => {
     priceItemNode.addEventListener('click', (event) => {
